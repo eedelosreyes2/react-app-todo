@@ -31,7 +31,7 @@ class App extends Component {
 			return todo
 		})})
 	}
-
+	
 	editTodo = (id) => {
 		this.setState({ todos: this.state.todos.map(todo => {
 			if (todo.id === id) {

@@ -46,10 +46,18 @@ a {
 	text-decoration: none;
 }
 
+.label:hover {
+	color: #666;
+}
+
 .labelCmp {
 	display: inline-block;
 	padding-top: 3px;
 	text-decoration: line-through;
+}
+
+.labelCmp:hover {
+	color: #666;
 }
 
 .inputStyle {
